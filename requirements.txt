@@ -1,0 +1,26 @@
+mrwn-smartcontract/
+│
+├── contracts/                      # 🔐 Smart Contracts
+│   └── MRWN.sol                   # Main MRWN token contract
+│   └── MRWNICO.sol               # (Optional) Token sale / ICO contract
+│   └── TaskHubRewards.sol        # (Optional) Rewards or staking logic
+│
+├── deploy/                        # 🚀 Deployment Scripts
+│   └── 00_deploy_mrwn.js         # Deploy MRWN token
+│   └── 01_deploy_utilities.js    # Deploy related contracts
+│
+├── scripts/                       # ⚙️ Interaction Scripts
+│   └── mint.js                   # Script to mint tokens
+│   └── transfer.js               # Example transfer script
+│
+├── test/                          # 🧪 Unit & Integration Tests
+│   └── mrwn.test.js              # MRWN token test cases
+│
+├── .env                           # 🔐 Environment Variables (Private keys, RPC)
+├── .gitignore                     # 🔒 Ignore node_modules, .env, etc.
+├── hardhat.config.js              # 🛠️ Hardhat Configuration
+├── README.md                      # 📘 Project Overview and Docs
+├── LICENSE                        # 📄 Open Source License (MIT)
+├── package.json                   # 📦 Node package info
+└── deploy-config.js               # 📍 Deployment settings/config (custom)
+
