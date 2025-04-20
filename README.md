@@ -1,4 +1,4 @@
-# 🪙 MRWN Token Smart Contract Soon
+# 🪙 MRWN Token Smart Contract (Coming Soon)
 
 Official smart contract for the **MRWN Token**, powering the decentralized ecosystem of the **Mrwain Organization** built on the **Pi Network**.
 
